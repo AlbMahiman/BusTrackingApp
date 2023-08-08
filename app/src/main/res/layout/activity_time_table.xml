@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeTableAct"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    >
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Table"
+        android:textSize="40sp"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="80dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="12dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Avissawella-06:50  NSBM-08:30"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Avissawella-10:50  NSBM-12:30"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Avissawella-07:10  NSBM-08:50"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="20dp"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="80dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="12dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+
+            <Button
+                android:id="@+id/btnGampaha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route"
+                android:background="@drawable/edt_text"
+
+                 />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="105dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"
+
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Gamapaha-11:20  NSBM-12:30"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Gamapaha-07:40  NSBM-08:50"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Gamapaha-07:00  NSBM-08:10"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Gamapaha-07:20  NSBM-08:30"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="20dp"
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="105dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnAvissawella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route"
+            android:background="@drawable/edt_text"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+
+        >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="158dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="2dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Maharagama-08:00  NSBM-08:40"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Maharagama-08:15  NSBM-08:50"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Maharagama-07:40  NSBM-08:20"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Maharagama-11:50  NSBM-12:30"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Maharagama-07:20  NSBM-08:00"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Maharagama-12:10  NSBM-12:50"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                 />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="160dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            />
+
+        <Button
+            android:id="@+id/btnMaharagama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edt_text"
+             />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnTimeTableBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="@drawable/edt_text_drv"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="20dp"
+
+         />
+
+    <Button
+        android:id="@+id/btnTimeTableMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAP"
+        android:background="@drawable/edt_text_drv"
+         />
+
+</LinearLayout>

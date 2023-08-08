@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentMainMenuAct"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/edt_background">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="28dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnStudentMap"
+            android:layout_width="177dp"
+            android:layout_height="42dp"
+            android:text="MAP"
+            android:background="@drawable/edt_text_drv"
+            android:layout_marginBottom="19dp"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/btnStudentTimeTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_text_drv"
+            android:text="Time Table"
+            android:layout_marginBottom="19dp"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/btnStudentSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_text_drv"
+            android:text="Settings"
+            android:layout_marginBottom="19dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/btnStudentLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_text_drv"
+            android:text="Log-Out"
+            android:layout_marginBottom="19dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

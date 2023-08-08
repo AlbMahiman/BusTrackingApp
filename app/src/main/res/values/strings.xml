@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tracking</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_driver_map">DriverMapAct</string>
+    <string name="title_activity_student_map">StudentMapAct</string>
+    <string name="title_activity_time_table_map">TimeTableMapAct</string>
+</resources>
